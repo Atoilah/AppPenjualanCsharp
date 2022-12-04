@@ -57,6 +57,7 @@
             this.toolPelanggan = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolTransaksi = new System.Windows.Forms.ToolStripButton();
+            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.statusStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
@@ -146,14 +147,14 @@
             // Barang
             // 
             this.Barang.Name = "Barang";
-            this.Barang.Size = new System.Drawing.Size(270, 34);
+            this.Barang.Size = new System.Drawing.Size(196, 34);
             this.Barang.Text = "Barang";
             this.Barang.Click += new System.EventHandler(this.Barang_Click);
             // 
             // Pelanggan
             // 
             this.Pelanggan.Name = "Pelanggan";
-            this.Pelanggan.Size = new System.Drawing.Size(270, 34);
+            this.Pelanggan.Size = new System.Drawing.Size(196, 34);
             this.Pelanggan.Text = "Pelanggan";
             this.Pelanggan.Click += new System.EventHandler(this.Pelanggan_Click);
             // 
@@ -170,6 +171,7 @@
             this.Penjualan.Name = "Penjualan";
             this.Penjualan.Size = new System.Drawing.Size(188, 34);
             this.Penjualan.Text = "Penjualan";
+            this.Penjualan.Click += new System.EventHandler(this.Penjualan_Click);
             // 
             // Laporan
             // 
@@ -332,6 +334,7 @@
         public ToolStripButton toolPelanggan;
         private ToolStripSeparator toolStripSeparator1;
         private ToolStripButton toolTransaksi;
+        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
     }
 }
 
